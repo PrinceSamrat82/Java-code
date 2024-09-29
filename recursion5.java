@@ -1,5 +1,6 @@
 public class recursion5 {
-    //Move all 'x' to the end of the string " axbcxxd"
+    //Move all 'x' to the end of the string " axbcxxd"?
+    //Time complexity is O(n), n is a String length. 
 
     public static void moveAllx(String str, int index, int count, String newString){
         if(index==str.length()){
